@@ -22,4 +22,6 @@ def visitar(habitacion):
     for vecino in casa[habitacion]:
         visitar(vecino)
 
-visitar("Cuarto")
+    print("Termino:", habitacion)
+
+visitar("Entrada")
